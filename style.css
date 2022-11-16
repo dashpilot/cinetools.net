@@ -1,5 +1,5 @@
 body {
-  background-color: #e0dace;
+  background-color: #2c2c2c;
 }
 
 .container {
@@ -27,11 +27,12 @@ p {
   font-family: "Domine", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 19px;
+  font-size: 18px;
   display: block;
   width: 300px;
   margin: 0 auto;
   padding-bottom: 50px;
+  color: #eee;
 }
 
 h2 {
@@ -52,7 +53,7 @@ header {
   padding: 30px;
   padding-bottom: 0;
 
-  background-color: #4a77a7;
+  background-color: #232529;
   height: 178px;
 }
 
