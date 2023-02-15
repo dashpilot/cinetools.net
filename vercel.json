@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/pocketgrade/",
-      "destination": "https://clipflare-video.vercel.app/"
+      "destination": "https://cinetools-pocketgrade.vercel.app/"
     },
     {
       "source": "/pocketgrade/:match*",
-      "destination": "https://clipflare-video.vercel.app/:match*"
+      "destination": "https://cinetools-pocketgrade.vercel.app/:match*"
     },
     {
       "source": "/look-generator/",
