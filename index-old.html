@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>CineTools.net</title>
+    <title>ClipFlare.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -38,14 +38,11 @@
       }
 
       main {
-        max-width: 1024px;
-        margin: 0 auto;
-        padding-bottom: 35px;
+        padding-bottom: 75px;
       }
 
       .logo {
         width: 200px;
-        margin-bottom: -75px;
       }
 
       .tagline {
@@ -89,11 +86,6 @@
 
       .app-icon img {
         width: 100px;
-        margin-bottom: 30px;
-      }
-
-      .app-icon2 {
-        width: 340px;
         margin-bottom: 30px;
       }
 
@@ -192,20 +184,6 @@
         margin: 0 auto;
       }
 
-      .btn {
-        padding: 15px 25px;
-        border-radius: 12px;
-      }
-
-      h4 {
-        font-size: 20px;
-      }
-
-      p {
-        font-size: 20px;
-        line-height: 30px;
-      }
-
       @media only screen and (max-width: 768px) {
         .app-footer {
           padding-bottom: 30px;
@@ -227,35 +205,99 @@
   </head>
 
   <body>
+    <!--
     <header>
       <img src="img/cinetools.png" class="logo" />
     </header>
-    <br />
+
+    <div class="tagline">
+      <h3>Apps for filmmakers and photographers</h3>
+    </div>
+  -->
+
     <main>
-      <div class="text-center">
+      <div class="container text-center">
+        <img
+          src="img/videotape.png"
+          style="
+            width: 200px;
+            margin-top: 50px;
+            margin-left: -30px;
+            transform: rotate(-12deg);
+          "
+        />
+
+        <div class="app-card" style="margin-top: -50px; padding-top: 75px">
+          <div class="app-tagline text-center">
+            <div class="title position-relative">
+              <h2 class="mt-5">ClipFlare</h2>
+              <span
+                class="
+                  position-absolute
+                  top-0
+                  start-100
+                  translate-middle
+                  badge
+                  rounded-pill
+                  bg-danger
+                "
+              >
+                beta
+              </span>
+            </div>
+
+            <h4>Color grading on the go</h4>
+
+            <a class="btn btn-dark mt-4 mb-5" href="/clipflare/">Launch App</a>
+
+            <br /><br /><br />
+          </div>
+
+          <div class="app-footer">
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <img src="img/adjust-black.png" class="w-25" />
+
+                <h5>Grade</h5>
+
+                <p>
+                  Change exposure, contrast, saturation, white balance and more
+                </p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="img/cube.png" class="w-25" />
+
+                <h5>Apply LUTs</h5>
+
+                <p>
+                  Apply your favorite LUTs or create new ones with the Look
+                  Generator
+                </p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="img/share-black.png" class="w-25" />
+                <h5>Export</h5>
+
+                <p>
+                  Export your video as an mp4 for instant sharing on social
+                  media
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="text-white mt-5">Companion Apps:</h3>
+
         <div class="row">
           <div class="col-md-6">
             <div
-              class="app-card"
-              style="background-color: white; padding: 72px 60px 40px 60px"
+              class="app-card app-card-sm mt-3"
+              style="background-image: url(img/look-generator.png)"
             >
-              <h2>CineTools</h2>
-
-              <p>
-                CineTools is a collection of web apps to help you grade your
-                footage, create LUTs and much more!
-              </p>
-            </div>
-
-            <div class="app-card app-card-sm mt-3 pt-5">
-              <img src="thumb/logo-look-generator.png" class="app-icon2" />
               <h2>Look Generator</h2>
 
-              <div class="w-75 m-auto">
-                <p>
-                  Automatically generate new looks,<br />and export them as LUTs
-                </p>
-              </div>
+              <h4>Create LUTs, with some help from the Generator</h4>
 
               <div class="app-footer app-footer-sm text-center pb-4">
                 <a class="btn btn-dark" href="/look-generator/">Launch App</a>
@@ -264,41 +306,11 @@
           </div>
 
           <div class="col-md-6">
-            <div class="app-card">
-              <div class="app-tagline text-center">
-                <img
-                  src="img/videotape.png"
-                  style="
-                    width: 150px;
-                    margin-top: 20px;
-                    margin-left: -20px;
-                    transform: rotate(-20deg);
-                  "
-                />
-                <br /><br /><br />
-                <h2>PocketGrade</h2>
-
-                <div class="w-75 m-auto">
-                  <p>
-                    Grade your clips, apply LUTs and export the result as mp4
-                  </p>
-                </div>
-              </div>
-
-              <div class="app-footer app-footer-sm text-center pb-4">
-                <a class="btn btn-dark" href="/pocketgrade/">Launch App</a>
-              </div>
-            </div>
-
             <div class="app-card app-card-sm mt-3 pt-5">
-              <img src="thumb/logo-videospecs.png" class="app-icon2" />
+              <img src="img/videospecs.png" class="app-icon" />
               <h2>VideoSpecs</h2>
-              <div class="w-75 m-auto">
-                <p>
-                  Get detailed info about your video files like codec, bitrate,
-                  color space, etc.
-                </p>
-              </div>
+
+              <h4>Get detailed info about your video files</h4>
 
               <div class="app-footer app-footer-sm text-center pb-4">
                 <a class="btn btn-dark" href="/videospecs/">Launch App</a>

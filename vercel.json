@@ -1,0 +1,53 @@
+{
+  "rewrites": [
+    {
+      "source": "/pocketgrade/",
+      "destination": "https://clipflare-video.vercel.app/"
+    },
+    {
+      "source": "/pocketgrade/:match*",
+      "destination": "https://clipflare-video.vercel.app/:match*"
+    },
+    {
+      "source": "/look-generator/",
+      "destination": "https://colorkit-pwa.vercel.app/"
+    },
+    {
+      "source": "/look-generator/:match*",
+      "destination": "https://colorkit-pwa.vercel.app/:match*"
+    },
+    {
+      "source": "/clipflare-pro/",
+      "destination": "https://pocketgrade.vercel.app/"
+    },
+    {
+      "source": "/clipflare-pro/:match*",
+      "destination": "https://pocketgrade.vercel.app/:match*"
+    },
+    {
+      "source": "/videospecs/",
+      "destination": "https://videospecs.vercel.app/"
+    },
+    {
+      "source": "/videospecs/:match*",
+      "destination": "https://videospecs.vercel.app/:match*"
+    },
+    {
+      "source": "/slideshow-maker/",
+      "destination": "https://slideshowmaker.vercel.app/"
+    },
+    {
+      "source": "/slideshow-maker/:match*",
+      "destination": "https://slideshowmaker.vercel.app/:match*"
+    },
+    {
+      "source": "/step-sequencer/",
+      "destination": "https://step-sequencer-ruddy.vercel.app/"
+    },
+    {
+      "source": "/step-sequencer/:match*",
+      "destination": "https://step-sequencer-ruddy.vercel.app/:match*"
+    },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
