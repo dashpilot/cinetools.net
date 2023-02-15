@@ -10,19 +10,11 @@
     },
     {
       "source": "/look-generator/",
-      "destination": "https://colorkit-pwa.vercel.app/"
+      "destination": "https://cinetools-look-generator.vercel.app/"
     },
     {
       "source": "/look-generator/:match*",
-      "destination": "https://colorkit-pwa.vercel.app/:match*"
-    },
-    {
-      "source": "/clipflare-pro/",
-      "destination": "https://pocketgrade.vercel.app/"
-    },
-    {
-      "source": "/clipflare-pro/:match*",
-      "destination": "https://pocketgrade.vercel.app/:match*"
+      "destination": "https://cinetools-look-generator.vercel.app/:match*"
     },
     {
       "source": "/videospecs/",
