@@ -18,11 +18,11 @@
     },
     {
       "source": "/videospecs/",
-      "destination": "https://videospecs.vercel.app/"
+      "destination": "https://cinetools-videospecs.vercel.app/"
     },
     {
       "source": "/videospecs/:match*",
-      "destination": "https://videospecs.vercel.app/:match*"
+      "destination": "https://cinetools-videospecs.vercel.app/:match*"
     },
     {
       "source": "/slideshow-maker/",
